@@ -1,0 +1,48 @@
+<!DOCTYPE nitf SYSTEM "nitf-3-0-no-comments.dtd">
+<nitf>
+  <head>
+    <title>Renewable fuels legislation becomes law</title>
+    <pubdata date.publication="20060715" edition.area="Michigan" issn="0743-9962" />
+    <docdata>
+      <key-list>
+        <keyword key="renewable" />
+        <keyword key="fuels" />
+        <keyword key="gas" />
+        <keyword key="ethanol" />
+        <keyword key="oil" />
+        <keyword key="barrel" />
+        <keyword key="price" />
+        <keyword key="alternative" />
+        <keyword key="energy" />
+        <keyword key="biodiesel" />
+      </key-list>
+    </docdata>
+  </head>
+  <body>
+    <body.head>
+      <hedline>
+        <hl1>Renewable fuels legislation becomes law</hl1>
+      </hedline>
+      <abstract>
+        <p>A package of bills that will encourage alternative energy and spur economic vitality in Michigan agriculture has cleared the final hurdles in the legislature and was signed by Governor Jennifer Granholm into law.</p>
+      </abstract>
+    </body.head>
+    <body.content>
+      <p>A package of bills that will encourage alternative energy and spur economic vitality in Michigan agriculture has cleared the final hurdles in the legislature and was signed by Governor Jennifer Granholm into law, according to state Rep. Neal Nitz.</p>
+      <p>Nitz, the primary sponsor and author of the legislation, said biodiesel and ethanol are the two primary players that can make Michigan a leader and an example for the nation in implementing renewable fuels into the 21st century. </p>
+      <p>&quot;This is a monumental achievement for the future of Michigan and what we can accomplish in both our auto and agriculture industries,&quot; said Nitz, R-Baroda, chair of the House Agriculture Committee. &quot;Renewable fuels can make a difference for Michigan&apos;s economic recovery and will impact the expansion of our $60 billion agriculture industry. This is the first step in providing renewable means to energy solutions and will decrease our dependence on foreign oil.&quot;</p>
+      <p>   The package focuses on an 85-percent blend of ethanol and gasoline, (E85), and a 5 percent or greater blend of biodiesel, or B5. Biodiesel is a cleaner-burning diesel fuel made from natural renewable sources such as soybean oil. Ethanol is a clean-burning high octane fuel primarily produced today from corn kernels.</p>
+      <p>As the nation begins to decrease its dependence on foreign oil, Michigan is also encouraged by the president&apos;s call for more research into cellulosic ethanol with even greater energy return, Nitz said. </p>
+      <p>The package:
+        <ul>
+          <li>Provides tax incentives for consumers by cutting the end cost of renewable fuels</li>
+          <li>Gives gas stations the opportunity to receive a grant of up to 75 percent of the total cost for converting an existing gas station to E85 or B5 fuel</li>
+          <li>Offers a grant for 50 percent of the total cost for the construction of a new E85 pump, which could be up to $12,000 per facility, providing more business and economic development for Michigan retailers</li>
+          <li>Creates 10 new Renaissance Zones in Michigan to be used specifically for manufacturing alternative energy to increase the supply of E85 for Michigan business and industry</li>
+          <li>Requires the Department of Agriculture to test diesel fuels to ensure Michigan residents are receiving the best quality fuels.</li>
+        </ul>
+      </p>
+      <p>&quot;As we have said before, Michigan is late to the dance and needs to catch up with our Midwest competitors,&quot; Nitz said. &quot;This is by no means the solution to every energy problem; however, it is a bold beginning. This comes at a critical time when our automakers and agriculture producers can use these resources to improve our economic standing in the nation. It will replenish jobs and give Michigan the opportunity to fuel a better future for state residents.&quot;</p>
+    </body.content>
+  </body>
+</nitf>

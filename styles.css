@@ -1,0 +1,33 @@
+BODY {background: white; color: black;}
+
+  A.navigation  {font-family: arial, helvetica, sans-serif; font-size: 8pt; color: white; font-weight: bold; text-decoration: none;}
+  A.navigation:hover {text-decoration: underline;}
+  A.xml {font-family: arial, helvetica, sans-serif; font-size: 8pt; color: #2e3192; text-decoration: none;}
+  A.xml:hover {text-decoration: underline;}
+  A.legal {font-family: arial, helvetica, sans-serif; font-size: 10pt;}
+
+   .arial8  {font-family: arial, helvetica, sans-serif; font-size: 8pt;}
+   .arial8bold  {font-family: arial, helvetica, sans-serif; font-size: 8pt; font-weight: bold;}
+   .arial8italic  {font-family: arial, helvetica, sans-serif; font-size: 8pt; font-style: italic;}
+   .arial8white {font-family: arial, helvetica, sans-serif; font-size: 8pt; color: white;}
+   .arial8whitebold {font-family: arial, helvetica, sans-serif; font-size: 8pt; color: white; font-weight: bold;}
+   
+   .arial10 {font-family: arial, helvetica, sans-serif; font-size: 10pt;}
+   .arial10bold {font-family: arial, helvetica, sans-serif; font-size: 10pt; font-weight: bold;}
+   .arial10italic {font-family: arial, helvetica, sans-serif; font-size: 10pt; font-style: italic;}
+   .arial10white {font-family: arial, helvetica, sans-serif; font-size: 10pt; color: white;}
+   .arial10whitebold {font-family: arial, helvetica, sans-serif; font-size: 10pt; color: white; font-weight: bold;}
+      
+   .arial12   {font-family: arial, helvetica, sans-serif; font-size: 12pt;}
+   .arial12bold {font-family: arial, helvetica, sans-serif; font-size: 12pt; font-weight: bold;}
+   .arial12italic {font-family: arial, helvetica, sans-serif; font-size: 12pt; font-style: italic;}
+
+   .bold {font-weight: bold;}
+   .italic  {font-style: italic;}
+   .underline {text-decoration: underline;}
+   
+   .bottom   {font-family: arial, helvetica, sans-serif; font-size: 8pt; color: gray;}
+
+   .master {background-color: #049c28;}
+TABLE.heading {background-color: #005e20; font-family: arial, helvetica, sans-serif; font-size: 10pt; color: white; font-weight: bold;}
+TD.heading {background-color: #005e20; font-family: arial, helvetica, sans-serif; font-size: 8pt; color: white; font-weight: bold;}
