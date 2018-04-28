@@ -11,6 +11,11 @@ namespace XsltTransformer
 {
    public static class FileHelpers
    {
+      public static IEnumerable<string> GetIssueContentsAtPath( string pathToFolder )
+      {
+         return Directory.EnumerateFiles( pathToFolder, "*.xml" ).Where( f => (!f.EndsWith( "cover.xml" ))  );
+      }
+
       public static IEnumerable<string> GetIssueFoldersAtPath( string pathToSearch )
       {
          var matchYyyyMmDdNames = new Regex("[0-9]{8}");
