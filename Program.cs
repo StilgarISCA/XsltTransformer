@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.IO;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -11,6 +12,7 @@ namespace XsltTransformer
    public class Program
    {
       public static string RootPath = @"c:\projects\issues\";
+      public static string PathToXsl = @"../../print.xsl";
 
       public static void Main(string[] args)
       {
@@ -21,7 +23,8 @@ namespace XsltTransformer
             IEnumerable<string> pathsToArticles = FileHelpers.GetIssueContentsAtPath( issuePath );
             foreach( var articlePath in pathsToArticles )
             {
-               XmlHelpers.XmlXsltTransform( "../../print.xsl", articlePath, "../../output.html" );
+               string filePathToWrite = FileHelpers.SetUpOutputPath( articlePath );
+               XmlHelpers.XmlXsltTransform( PathToXsl, articlePath, filePathToWrite );
             }
          }
       }
