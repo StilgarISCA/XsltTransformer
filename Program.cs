@@ -16,7 +16,14 @@ namespace XsltTransformer
       {
          IEnumerable<string> pathsToIssues = FileHelpers.GetIssueFoldersAtPath( RootPath );
 
-         XmlHelpers.XmlXsltTransform( "../../print.xsl", "../../fuel.xml", "../../output.html" );
+         foreach( var issuePath in pathsToIssues )
+         {
+            IEnumerable<string> pathsToArticles = FileHelpers.GetIssueContentsAtPath( issuePath );
+            foreach( var articlePath in pathsToArticles )
+            {
+               XmlHelpers.XmlXsltTransform( "../../print.xsl", articlePath, "../../output.html" );
+            }
+         }
       }
    }
 }
