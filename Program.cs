@@ -26,6 +26,8 @@ namespace XsltTransformer
                string filePathToWrite = FileHelpers.SetUpOutputPath( articlePath );
                XmlHelpers.XmlXsltTransform( PathToXsl, articlePath, filePathToWrite );
             }
+
+            FileHelpers.CopyImagesFolder( issuePath );
          }
       }
    }
