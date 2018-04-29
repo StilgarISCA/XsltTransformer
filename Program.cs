@@ -12,7 +12,7 @@ namespace XsltTransformer
    public class Program
    {
       public static string RootPath = @"c:\projects\issues\";
-      public static string PathToXsl = @"../../print.xsl";
+      public static string PathToXsl = @"..\..\print.xsl";
 
       public static void Main(string[] args)
       {

@@ -12,13 +12,13 @@ namespace XsltTransformer
 {
    public static class FileHelpers
    {
-      public static string OutputPath = @"../../../Transformed/";
+      public static string OutputPath = @"..\..\..\Transformed\";
 
       public static void CopyImagesFolder( string issuesFolder )
       {
          string issueDate = GetIssueDateFromPath( issuesFolder );
-         string sourceFolder = $"{issuesFolder}\\images";
-         string targetFolder = $"{OutputPath}/{issueDate}/images";
+         string sourceFolder = Path.Combine( issuesFolder, "images" );
+         string targetFolder = Path.Combine( OutputPath, issueDate, "images");
 
          Directory.CreateDirectory( targetFolder );
 
@@ -27,7 +27,7 @@ namespace XsltTransformer
          foreach ( var image in imageFiles )
          {
             string fileName = Path.GetFileName( image );
-            string targetFile = $"{targetFolder}/{fileName}";
+            string targetFile = Path.Combine( targetFolder, fileName );
             File.Copy( image, targetFile, true );
          }
       }
@@ -40,9 +40,9 @@ namespace XsltTransformer
       private static string GetIssueDateFromPath( string pathToParse )
       {
          // Add a trailing slash if it's a folder path
-         if( IsDirectory( pathToParse ) )
+         if( IsDirectory( pathToParse ) && !pathToParse.EndsWith( "\\" ) )
          {
-            pathToParse = $"{pathToParse}/";
+            pathToParse = $"{pathToParse}\\";
          }
 
          return Path.GetDirectoryName( pathToParse ).Split( Path.DirectorySeparatorChar ).Last();
@@ -64,11 +64,11 @@ namespace XsltTransformer
       {
          string fileName = Path.GetFileNameWithoutExtension( articlePath );
          string issueDate = GetIssueDateFromPath( articlePath );
-         string issueOutputPath = $"{OutputPath}{issueDate}";
+         string issueOutputPath = Path.Combine( OutputPath, issueDate );
 
          Directory.CreateDirectory( issueOutputPath );
 
-         return $"{issueOutputPath}/{fileName}.html";
+         return Path.Combine( issueOutputPath, $"{fileName}.html" );
       }
    }
 }
